@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "expenseTracker",
+    "slug": "expenseTracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/expenseLogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tusharkuchchal.expenseTracker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tusharkuchchal.expenseTracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70f82a84-0a6c-437b-b182-c22d745e1cb0"
+      }
+    }
+  }
+}
